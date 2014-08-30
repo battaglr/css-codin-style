@@ -181,7 +181,7 @@ Use sentence case notation for all kind of comments.
 
 ### Tag comments
 
-+ The accepted tags are: `TODO` and `NOTE`.
++ The only accepted tag is: `TODO`.
 + Use uppercase for the tag name.
 + Place a colon after the end of the tag name.
 + Place a space after the colon.
@@ -190,8 +190,6 @@ Use sentence case notation for all kind of comments.
 .panel {
   /* TODO: refactor `px` to `em`. */
   padding: 20px;
-  /* NOTE: used just to clear floats. */
-  overflow: hidden;
 }
 ```
 
