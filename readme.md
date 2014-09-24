@@ -132,8 +132,8 @@ Quote URL values using single quotes.
 Quote font family names that contain whitespace using single quotes.
 
 ```css
-.doge {
-  font-family: 'Comic Sans MS', cursive;
+.newspaper {
+  font-family: 'Times New Roman', Times, serif;
 }
 ```
 
