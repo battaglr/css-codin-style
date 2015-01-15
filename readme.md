@@ -158,12 +158,13 @@ an explicit value.
 }
 ```
 
-Use shorthand for hexadecimal values when allowed.
+Use lowercase for hexadecimal values, and shorthand notation when allowed.
 
 ```css
 .panel {
   color: #111;
   background: #ffffff; /* Don't! */
+  border-color: #F3F3F3; /* Don't! */
 }
 ```
 
