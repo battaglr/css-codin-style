@@ -173,7 +173,8 @@ Use lowercase for hexadecimal values, and shorthand notation when allowed.
 
 ## Comments
 
-Use sentence case notation for all kind of comments.
+Use [sentence case](http://en.wiktionary.org/wiki/sentence_case) for all kind
+of comments.
 
 ```css
 /* Single-line comment. */
