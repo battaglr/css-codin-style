@@ -6,11 +6,14 @@ way of doing it.
 
 ## Whitespace
 
-+ Use LF (`\n`) for line endings.
++ Use Unix newline character: `LF`.
 + Use two spaces per indentation level.
-+ Trailing whitespace is evil.
++ Remove all trailing whitespace.
 + Always end files with a newline.
 + Use only one blank line as a separator.
+
+_Psst, you may want to check my [presentation about whitespace]
+(http://speakerdeck.com/battaglr/why-you-should-care-about-whitespace)_.
 
 ## Rules
 
