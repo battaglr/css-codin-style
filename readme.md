@@ -6,25 +6,25 @@ way of doing it.
 
 ## Whitespace
 
-+ Use Unix newline character: `LF`.
-+ Use two spaces per indentation level.
-+ Remove all trailing whitespace.
-+ Always end files with a newline.
-+ Use only one blank line as a separator.
+- Use Unix newline character: `LF`.
+- Use two spaces per indentation level.
+- Remove all trailing whitespace.
+- Always end files with a newline.
+- Use only one blank line as a separator.
 
 _Psst, you may want to check my [presentation about whitespace]
 (http://speakerdeck.com/battaglr/why-you-should-care-about-whitespace)_.
 
 ## Rules
 
-+ Place the opening brace next to the selector.
-+ Use one space before the opening brace.
-+ Define one declaration per line.
-+ Place one space after the colon.
-+ Always end declarations with a semicolon.
-+ No space before a semicolon.
-+ Place the closing brace in the same column as the first character of a rule.
-+ Separate each rule by a blank line.
+- Place the opening brace next to the selector.
+- Use one space before the opening brace.
+- Define one declaration per line.
+- Place one space after the colon.
+- Always end declarations with a semicolon.
+- No space before a semicolon.
+- Place the closing brace in the same column as the first character of a rule.
+- Separate each rule by a blank line.
 
 ```css
 .button {
@@ -45,9 +45,9 @@ _Psst, you may want to check my [presentation about whitespace]
 In large blocks of rules that only consist of one selector and one declaration,
 a single-line format should be used.
 
-+ Use one space after the opening brace.
-+ Use one space before the closing brace.
-+ Don’t separate rules by a blank line.
+- Use one space after the opening brace.
+- Use one space before the closing brace.
+- Don’t separate rules by a blank line.
 
 ```css
 .icon--anchor { background-image: url('assets/icons/anchor.svg'); }
@@ -112,8 +112,8 @@ body {
 
 Long comma-separated set of values should be arranged across multiple lines.
 
-+ Place the first set in the same line than the property.
-+ Place the following set/s in a newline using one extra level of indentation.
+- Place the first set in the same line than the property.
+- Place the following set/s in a newline using one extra level of indentation.
 
 ```css
 .foobar {
@@ -186,10 +186,10 @@ of comments.
 
 ### Tag comments
 
-+ The only accepted tag is: `TODO`.
-+ Use uppercase for the tag name.
-+ Place a colon after the end of the tag name.
-+ Place a space after the colon.
+- The only accepted tag is: `TODO`.
+- Use uppercase for the tag name.
+- Place a colon after the end of the tag name.
+- Place a space after the colon.
 
 ```css
 .panel {
