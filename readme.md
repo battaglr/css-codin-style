@@ -175,6 +175,39 @@ Use lowercase for hexadecimal values, and shorthand notation when allowed.
 }
 ```
 
+## At-rules
+
+At-rules that directly contain declarations should follow the same pattern that
+applies to any other rule.
+
+```css
+@font-face {
+  font-family: Boldy;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Boldy'),
+    url('assets/webfonts/boldy.woff') format('woff');
+}
+```
+
+Nested rules inside at-rules should be properly indented.
+
+- Don't leave a blank line before the first rule.
+- Don't leave a blank line after the last rule.
+
+```css
+@media print {
+  body {
+    color: #000;
+    background: transparent;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
+```
+
 ## Comments
 
 Use [sentence case](http://en.wiktionary.org/wiki/sentence_case) for all kind
