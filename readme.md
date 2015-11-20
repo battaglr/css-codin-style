@@ -155,9 +155,11 @@ an explicit value.
 ```css
 .panel {
   background-color: #fff;
-  background-color: white; /* Don't! */
+  /* Don't! */
+  background-color: white;
   border-width: .25em;
-  border-width: medium; /* Don't! */
+  /* Don't! */
+  border-width: medium;
 }
 ```
 
@@ -166,8 +168,13 @@ Use lowercase for hexadecimal values, and shorthand notation when allowed.
 ```css
 .panel {
   color: #111;
-  background: #ffffff; /* Don't! */
-  border-color: #F3F3F3; /* Don't! */
+  /* Don't! */
+  background: #ffffff;
+  /* Don't! */
+  border-color: #F3F3F3;
+}
+```
+
 }
 ```
 
