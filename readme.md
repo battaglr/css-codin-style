@@ -210,17 +210,11 @@ of comments.
 When appropriate, break code into meaningful sections.
 
 ```css
-/* > First level
+/* First level
    ---------------------------------------------------------------- */
 
-/* >> Second level
-   ------------------------------------------------------ */
-
-/* >>> Third level
+/* Second level
    -------------------------------------------- */
-
-/* >>>> Fourth level
-   ---------------------------------- */
 ```
 
 ## License
