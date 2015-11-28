@@ -198,8 +198,8 @@ applies to any other rule.
 
 Nested rules inside at-rules should be properly indented.
 
-- Don't leave a blank line before the first rule.
-- Don't leave a blank line after the last rule.
+- Don’t leave a blank line before the first rule.
+- Don’t leave a blank line after the last rule.
 
 ```css
 @media print {
