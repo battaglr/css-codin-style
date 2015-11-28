@@ -153,25 +153,31 @@ Don’t use keyword values when the same result could be achieved using
 an explicit value.
 
 ```css
+/* DON'T */
+.panel {
+  background-color: white;
+  border-width: medium;
+}
+
+/* DO */
 .panel {
   background-color: #fff;
-  /* Don't! */
-  background-color: white;
   border-width: .25em;
-  /* Don't! */
-  border-width: medium;
 }
 ```
 
 Use lowercase for hexadecimal values, and shorthand notation when allowed.
 
 ```css
+/* DON'T */
+.panel {
+  background: #ffffff;
+  border-color: #F3F3F3;
+}
+
+/* DO */
 .panel {
   color: #111;
-  /* Don't! */
-  background: #ffffff;
-  /* Don't! */
-  border-color: #F3F3F3;
 }
 ```
 
