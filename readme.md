@@ -84,7 +84,7 @@ Use double colon notation in pseudo-elements.
 
 ## Values
 
-Don’t specify the length unit for zero values.
+Don’t specify length units for zero values.
 
 ```css
 .panel {
