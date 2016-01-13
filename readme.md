@@ -227,6 +227,16 @@ of comments.
  */
 ```
 
+*Use native single-line comments when working with a transpiler.*
+
+```scss
+// Single-line comment.
+
+////
+// Multi-line comment.
+//
+```
+
 ### Tag comments
 
 - The only accepted tag is: `TODO`.
@@ -251,6 +261,16 @@ When appropriate, break code into meaningful sections.
 
 /* Second level
    -------------------------------------------- */
+```
+
+*Use native single-line comments when working with a transpiler.*
+
+```scss
+// First level
+// ---------------------------------------------------------------- //
+
+// Second level
+// -------------------------------------------- //
 ```
 
 ## License
